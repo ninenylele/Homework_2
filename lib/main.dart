@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors, unused_local_variable
-
 import 'dart:html';
 import 'dart:math';
 import 'package:flutter/material.dart';
@@ -54,7 +52,7 @@ class MyApp extends StatelessWidget {
               height: 450.0,
             ),
           ),
-          SizedBox(height: 20.0), // เพิ่มระยะห่างระหว่างรูปภาพกับ Text
+          SizedBox(height: 20.0),
           Text(
             imageTexts[randomIndex],
             style: TextStyle(fontSize: 30.0),
@@ -67,7 +65,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Home work 2',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
